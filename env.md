@@ -34,12 +34,9 @@ exit
 
 #### php7
 ```
-yum install php70w
-yum install php70w-fpm
-yum install php70w-mbstring
-yum install php70w-pdo
-yum install php70w-mysql
-yum instakk php70w-devel
+rpm -Uvh https://mirror.webtatic.com/yum/el7/epel-release.rpm
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+yum install -y php71w php71w-cli php71w-common php71w-devel php71w-embedded php71w-fpm php71w-gd php71w-mbstring php71w-mysqlnd php71w-opcache php71w-pdo php71w-xml php71w-ldap php71w-mcrypt
 ```
 #### php-grpc 扩展
 ```
@@ -88,4 +85,10 @@ npm -v
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 composer -v
+更换国内镜像
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+```
+## laravel
+```
+composer create-project laravel/laravel server
 ```
