@@ -3,11 +3,9 @@
 //
 
 #include "stack_lt.h"
-#include <stack>
-#include <iostream>
 
-int StackLt::longestValidParentheses(std::string s) {
-    std::stack<int> stack;
+int StackLt::longestValidParentheses(string s) {
+    stack<int> stack;
     for (int i = 0; i < s.length(); i++) {
         if (stack.empty() || s[i] == '(' || s[stack.top()] == ')') {
             stack.push(i);
@@ -28,9 +26,9 @@ int StackLt::longestValidParentheses(std::string s) {
 }
 
 int StackLt::test_longestValidParentheses() {
-    std::string str = ")()((()())";
+    string str = ")()((()())";
     int len = StackLt::longestValidParentheses(str);
-    std::cout << "len: " << len << std::endl;
+    cout << "len: " << len << endl;
     return 0;
 }
 
