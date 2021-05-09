@@ -4,4 +4,4 @@ project(Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Algorithm
-        README.md main.cpp stack_lt.cpp stack_lt.h)
+        README.md main.cpp src/stack_lt.cpp src/stack_lt.h)

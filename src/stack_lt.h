@@ -10,6 +10,9 @@
 class StackLt {
 public:
     static int longestValidParentheses(std::string s);
+
+public:
+    static int test_longestValidParentheses();
 };
 
 
