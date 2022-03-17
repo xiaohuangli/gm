@@ -4,11 +4,13 @@
 
 #ifndef ALGORITHM_CONTAIN_INC_H
 #define ALGORITHM_CONTAIN_INC_H
+#include "print_utils.h"
 #include <iostream>
 #include <vector>
 #include <stack>
 #include <string>
 #include <algorithm>
+
 
 using namespace std;
 
