@@ -58,6 +58,15 @@ vector<vector<int>> backtracking::permuteUnique(vector<int> &nums) {
     return result;
 }
 
+void backtracking_longestSubstring(const string& s, int start, int k, map<char, int>& tmp) {
+
+}
+
+int backtracking::longestSubstring(string s, int k) {
+
+}
+
+
 void backtracking::test_permute() {
     std::vector<int> nums = {1,1,3};
 //    auto result = permute(nums);

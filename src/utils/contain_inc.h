@@ -9,6 +9,8 @@
 #include <stack>
 #include <string>
 #include <algorithm>
+#include <map>
+#include <functional>
 
 using namespace std;
 

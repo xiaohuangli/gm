@@ -8,7 +8,7 @@
 template <class T>
 class print_utils {
 public:
-    void print(T t);
+  static void print(T t);
 };
 
 

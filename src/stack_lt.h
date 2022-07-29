@@ -11,6 +11,9 @@ class StackLt {
 public:
     static int longestValidParentheses(string s);
 
+  static bool checkInclusion(string s1, string s2);
+  static void test_checkInclusion();
+
 public:
     static int test_longestValidParentheses();
 };

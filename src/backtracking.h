@@ -10,7 +10,7 @@ class backtracking {
 public:
     static vector<vector<int>> permute(vector<int>& nums);
     static vector<vector<int>> permuteUnique(vector<int>& nums);
-
+    static int longestSubstring(string s, int k);
 public:
     static void test_permute();
 };

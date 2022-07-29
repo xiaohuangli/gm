@@ -1,3 +1,5 @@
 /.idea
 /cmake-build-debug
 /cmake-build-debug-coverage
+/.clion.source.upload.marker
+/cmake-build-debug-remote-host
